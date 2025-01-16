@@ -1,51 +1,33 @@
-﻿# .NET Home
+# .NET Release Notes
 
-The dotnet/core repository is a good starting point for .NET.
+Welcome to the home of .NET [release notes](./release-notes/README.md) and [news](https://github.com/dotnet/core/discussions/categories/news).
 
-The latest major release is [.NET 6.0](release-notes/6.0/README.md). The latest patch updates are listed in [.NET release notes](release-notes/README.md).
+## Releases
 
-## .NET Releases
+[Releases](./releases.md) under active support or development:
 
-* [Download the latest .NET SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
-* [.NET releases](releases.md)
-* [.NET daily builds](daily-builds.md)
+|  Version  | Release Date | Support | Latest Patch Version | End of Support |
+| :-- | :-- | :-- | :-- | :-- |
+| [.NET 9](release-notes/9.0/README.md) | November 12, 2024 | [STS][policies] | [9.0.1][9.0.1] | May 12, 2026 |
+| [.NET 8](release-notes/8.0/README.md) | [November 14, 2023](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/) | [LTS][policies] | [8.0.12][8.0.12] | November 10, 2026 |
 
-## Learn about .NET
+[9.0.1]: release-notes/9.0/9.0.1/9.0.1.md
+[8.0.12]: release-notes/8.0/8.0.12/8.0.12.md
+[policies]: release-policies.md
 
-* [Learn about .NET](https://docs.microsoft.com/dotnet/core)
-* [.NET Roadmap](https://github.com/dotnet/core/blob/main/roadmap.md)
-* [Learn about the .NET platform](https://docs.microsoft.com/dotnet/standard/)
-* [.NET release notes](https://github.com/dotnet/core/blob/main/release-notes/README.md)
-* [.NET Announcements](https://github.com/dotnet/announcements)
-* [.NET blog](https://blogs.msdn.microsoft.com/dotnet/tag/net-core/)
+* [Release notes](./release-notes/README.md)
+* [Binaries and installers](https://dotnet.microsoft.com/download/dotnet)
+* [Installation docs](https://learn.microsoft.com/dotnet/core/install/)
+* [dotnet-install scripts](https://learn.microsoft.com/dotnet/core/tools/dotnet-install-script)
 
-## Getting help
+## Discussions
 
-* [File an issue](Documentation/core-repos.md)
-* [Ask on Stack Overflow](https://stackoverflow.com/questions/tagged/.net-core)
-* [Contact Microsoft Support](https://support.microsoft.com/contactus/)
-* [VS Developer Community Portal](https://developercommunity.visualstudio.com/) for .NET Framework feedback (or via [Report a Problem](https://aka.ms/vs-rap) tool)
+Follow [GitHub Discussions](https://github.com/dotnet/core/discussions), where you will find the latest news on releases, including PSAs and CVEs.
 
-## How to Engage, Contribute and Provide Feedback
+You can subscribe to discussions with the following RSS feeds:
 
-The .NET team encourages [contributions](https://github.com/dotnet/runtime/blob/main/CONTRIBUTING.md), both issues and PRs. The first step is finding the [.NET repository](Documentation/core-repos.md) that you want to contribute to.
-
-Check the [product roadmap](https://aka.ms/dotnet-product-roadmap) to see what the team is focusing on.
-
-### Community
-
-This project uses the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct) to define expected conduct in our community.
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting a project maintainer at conduct@dotnetfoundation.org.
-
-## .NET Foundation
-
-The .NET platform is part of the [.NET Foundation](https://www.dotnetfoundation.org).
-
-## Licenses
-
-.NET repos typically use either the [MIT](LICENSE.TXT) or
-[Apache 2](https://www.apache.org/licenses/LICENSE-2.0) licenses for code.
-Some projects license documentation and other forms of content under
-[Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
-
-See specific [repos](Documentation/core-repos.md) to understand the license used.
+| Category | GitHub Discussions | RSS Feed |
+| --- | :--: | :--: |
+| All Discussions | [🔗](https://github.com/dotnet/core/discussions) | [🔗](https://github.com/dotnet/core/discussions.atom) |
+| News | [🔗](https://github.com/dotnet/core/discussions/categories/news) | [🔗](https://github.com/dotnet/core/discussions/categories/news.atom) |
+| General  | [🔗](https://github.com/dotnet/core/discussions/categories/general) | [🔗](https://github.com/dotnet/core/discussions/categories/general.atom) |
